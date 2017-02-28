@@ -1,0 +1,18 @@
+﻿<!--paste_motion_special-->
+<!--This XML file is used as a template to re-write the other file PasteMotionSpecialDialog.xml, in order to persist the settings.-->
+<dialog title="粘贴特殊动作" buttons="accept, cancel">
+	<vbox>
+		<label value="粘贴这些属性: "/> 
+		<checkbox id="x" checked="%x%" label="X 位置"/>
+		<checkbox id="y" checked="%y%" label="Y 位置"/> 
+		<checkbox id="scaleX" checked="%scaleX%" label="水平缩放"/>
+		<checkbox id="scaleY" checked="%scaleY%" label="垂直缩放"/> 
+		<checkbox id="rotationAndSkew" checked="%rotationAndSkew%" label="旋转与倾斜"/>
+		<checkbox id="color" checked="%color%" label="颜色"/> 
+		<checkbox id="filters" checked="%filters%" label="滤镜"/>
+		<checkbox id="blendMode" checked="%blendMode%" label="混合模式"/> 
+		<separator/> 
+		<checkbox id="overrideScale" checked="%overrideScale%" label="覆盖目标缩放属性"/> 
+		<checkbox id="overrideRotationAndSkew" checked="%overrideRotationAndSkew%" label="覆盖目标旋转与倾斜属性"/>
+	</vbox>
+</dialog> 

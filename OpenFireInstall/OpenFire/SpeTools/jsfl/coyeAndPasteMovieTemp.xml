@@ -1,0 +1,30 @@
+<Motion duration="15" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+	<source>
+		<Source frameRate="24" x="116" y="155" scaleX="1" scaleY="1" rotation="0" elementType="graphic" symbolName="补间 2">
+			<dimensions>
+				<geom:Rectangle left="-24" top="-24" width="48" height="48"/>
+			</dimensions>
+			<transformationPoint>
+				<geom:Point x="0.5" y="0.5"/>
+			</transformationPoint>
+		</Source>
+	</source>
+
+	<Keyframe index="0" tweenSnap="true">
+		<tweens>
+			<SimpleEase ease="0"/>
+		</tweens>
+	</Keyframe>
+
+	<Keyframe index="6" tweenSnap="true" scaleX="0.375" scaleY="0.375">
+		<tweens>
+			<SimpleEase ease="0"/>
+		</tweens>
+	</Keyframe>
+
+	<Keyframe index="14" tweenSnap="true" x="128" y="21" scaleX="1" scaleY="1">
+		<tweens>
+			<SimpleEase ease="0"/>
+		</tweens>
+	</Keyframe>
+</Motion>
